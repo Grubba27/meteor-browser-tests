@@ -3,12 +3,12 @@ Package.describe({
   summary:
     'A helper package for Meteor test driver packages. Runs client tests in a headless browser.',
   git: 'https://github.com/meteortesting/meteor-browser-tests.git',
-  version: '1.5.2-alpha300.9',
+  version: '1.5.2-alpha300.11',
   testOnly: true,
 });
 
 Package.onUse((api) => {
-  api.use('ecmascript@1.0.0-alpha300.9');
+  api.use('ecmascript@0.16.8-alpha300.11');
 
   api.mainModule('server.js', 'server');
   api.addAssets(
