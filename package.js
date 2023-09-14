@@ -1,9 +1,9 @@
 Package.describe({
-  name: 'grubba:browser-tests',
+  name: 'meteortesting:browser-tests',
   summary:
     'A helper package for Meteor test driver packages. Runs client tests in a headless browser.',
   git: 'https://github.com/meteortesting/meteor-browser-tests.git',
-  version: '1.5.2-alpha300.11',
+  version: '1.5.3-alpha300.11',
   testOnly: true,
 });
 
